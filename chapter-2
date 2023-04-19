@@ -1,0 +1,14 @@
+Configure the Git for the First use:-
+    Now you can start using Git on your system. You can explore many features of the version control system. To go with Git, you have to configure the initial user access process. It can be done with the git config command.
+
+    Suppose I want to register a user whose user name is "javaTpoint" and email address is "Javatpoint@xyz", then it will be done as follows:
+
+    To register a username, run the below command:
+    $ git config --global user.name "javaTpoint"  
+
+    To register an email address for the given author, run the below command:
+    $ git config --global user.email "javatpoint@xyz"  
+
+    Now, you have successfully registered a user for the version control system.
+
+    It's important to understand that the git config tool works on a user according to the user. For example, if we have a user "john" registered on Git. Then there can be another user "Mike" on the same machine registered on Git. To do this, Mike must run the same command from his user account. The commits made by both the users will be done under their details in Git.
